@@ -1,0 +1,35 @@
+:root {
+  --font-size: 16px;
+  --font: sans-serif;
+  --text-color: #000;
+  --bg-color: #fff;
+  --theme-color: #ff9f43;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #fff;
+    --bg-color: #000;
+  }
+  
+  header {
+    color: var(--bg-color);
+  }
+  
+  main div {
+    background: var(--bg-color);
+  }
+  
+  main div, main div a {
+    color: var(--text-color);
+  }
+  
+  main div:nth-of-type(2n) {
+    background: var(--theme-color);
+  }
+  
+  main div:nth-of-type(2n),
+  main div:nth-of-type(2n) a {
+    color: var(--bg-color);
+  }
+}
