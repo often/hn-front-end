@@ -1,0 +1,86 @@
+@import 'theme.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: var(--font-size) var(--font);
+  color: var(--text-color);
+  background: var(--bg-color);
+  padding: 20px 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2, p {
+  margin: 10px 0;
+}
+
+span {
+  color: #fff;
+  padding: 3px 10px;
+  outline: 1px solid #fff;
+}
+
+a {
+  color: var(--text-color);
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  background: var(--theme-color);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header a {
+  border-bottom: none;
+}
+
+header, main {
+  word-break: break-all;
+}
+
+main {
+  padding: 20px 0;
+}
+
+main div {
+  padding: 10px 20px;
+  outline: 1px solid var(--theme-color);
+}
+
+main div:nth-of-type(2n) {
+  background: var(--theme-color);
+}
+
+footer {
+  text-align: center;
+}
+
+::selection {
+  color: var(--bg-color);
+  background: var(--text-color);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--theme-color);
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
