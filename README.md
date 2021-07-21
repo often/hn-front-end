@@ -1,7 +1,7 @@
 <div align="center">
   <img src="img/icon.svg" height="100px" />
   
-  # hn-front-end
+  # [hn-front-end](https://often.github.io/hn-front-end/)
   yet another HN front-end.
 </div>
 
